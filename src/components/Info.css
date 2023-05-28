@@ -19,7 +19,7 @@ html, body {
 }
 
 .product{
-  background-image: url("../../public/images/diving.png");
+  background-image: url("../../public/images/sea.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;

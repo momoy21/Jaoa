@@ -10,7 +10,7 @@ const About = () => {
       name: 'Angelina',
       nim: '00000071861',
       quote: 'Believe you can and you\'re halfway there.',
-      photo: 'images/Angel.jpg'
+      photo: "images/Angel.jpg"
     },
     {
       name: 'Jason Jonathan',
