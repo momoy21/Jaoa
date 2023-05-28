@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Jaoa/static/css/main.9e8f9fbe.css",
+    "main.js": "/Jaoa/static/js/main.8af115d5.js",
+    "static/media/seafoam.jpg": "/Jaoa/static/media/seafoam.e552360b6d2629fbe1b4.jpg",
+    "static/media/diving.png": "/Jaoa/static/media/diving.e88c5e2c2e08bd5daa12.png",
+    "static/media/3.png": "/Jaoa/static/media/3.a6bc1bcceae57554be77.png",
+    "static/media/2.png": "/Jaoa/static/media/2.c990637d71142ff0e5df.png",
+    "static/media/lawangsewu.jpg": "/Jaoa/static/media/lawangsewu.0718dd90de4c33e637a4.jpg",
+    "static/media/jakarta.jpg": "/Jaoa/static/media/jakarta.33373f513215210edf65.jpg",
+    "static/media/malang.jpg": "/Jaoa/static/media/malang.27ad0d171adcafc16555.jpg",
+    "static/media/bandung.jpg": "/Jaoa/static/media/bandung.4c4b0a1dd9df7c36dbea.jpg",
+    "static/media/bandung2.jpg": "/Jaoa/static/media/bandung2.690386bb7e232e6202c2.jpg",
+    "static/media/yogya.jpg": "/Jaoa/static/media/yogya.cb6ea318bdcf5e36dc04.jpg",
+    "static/media/stadion.jpg": "/Jaoa/static/media/stadion.651036b29f58babc43e5.jpg",
+    "static/media/semarang.jpg": "/Jaoa/static/media/semarang.4b6805691f697a2ba6a5.jpg",
+    "static/media/soekarnohatta.jpg": "/Jaoa/static/media/soekarnohatta.126b04687ff58b5b226c.jpg",
+    "static/media/banten.jpg": "/Jaoa/static/media/banten.b1813fdf6437bd30201c.jpg",
+    "static/media/merapi.jpg": "/Jaoa/static/media/merapi.6934aa2c794a63de6c1f.jpg",
+    "static/media/bromo.jpg": "/Jaoa/static/media/bromo.861da473573559954e01.jpg",
+    "index.html": "/Jaoa/index.html",
+    "main.9e8f9fbe.css.map": "/Jaoa/static/css/main.9e8f9fbe.css.map",
+    "main.8af115d5.js.map": "/Jaoa/static/js/main.8af115d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e8f9fbe.css",
+    "static/js/main.8af115d5.js"
+  ]
+}

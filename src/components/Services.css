@@ -1,0 +1,251 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 125vh;
+}
+
+body {
+  background-image: url(../../public/images/diving.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin: 0;
+  padding: 0;
+}
+
+
+.Services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fdfdfd;
+  text-align: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-top: 30px;
+}
+
+.Services h1 {
+  text-align: center;
+  color: #1F3A3D;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 100px;
+  font-family: Georgia;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 300px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#email {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 300px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#password {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 300px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.provinsiBox,
+.regensiBox {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 300px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #7E8787;
+}
+
+.provinsiBox select,
+.regensiBox select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.provinsiBox option,
+.regensiBox option {
+  padding: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #bc4749;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.list-wrapper {
+  background-color: #f1f1f1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  overflow: auto;
+  overflow-x: auto;
+  color: #0A1314; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  
+}
+
+li {
+  flex: 0 0 auto;
+  text-align: left;
+  background-color: #D1ECEF;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #1893b9;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+
+/* Update the color of the weather component */
+.weather-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.weather-container h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1F3A3D;
+}
+
+.weather-container p {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.weather-container .weather-icon {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.weather-container .weather-description {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 400px;
+}
+
+.weather-label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #294D51;
+  margin-right: 10px;
+}
+
+.weather-value {
+  font-size: 16px;
+  color: #0A1314
+}
+
+.travelinformation {
+  font-family: 'Verdana', sans-serif;
+  background-color: #74A1A5;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto 0 auto;
+  flex-direction: column-reverse;
+}
+
+.social-icons {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}

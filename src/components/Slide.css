@@ -1,0 +1,146 @@
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 170px;
+    font-size: 3rem;
+    color: black;
+    z-index: 5;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 170px;
+    font-size: 3rem;
+    color: black;
+    z-index: 5;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slider {
+    
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out;
+  z-index: 0;
+}
+
+.slide-active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+    z-index: 1;
+}
+
+.slide:hover {
+  z-index: 1;
+  transform: scale(1.05);
+}
+
+.image {
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.box {
+    content: attr(data-category);
+    position: absolute;
+    bottom: 10px;
+    margin-left: 10px;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1f98f4;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.box2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    background-color: #f2f2f2;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 160px;
+    height: auto;
+    width: 500px;
+  
+}
+
+.image2{
+    border-radius: 10px;
+    width: 300px;
+    height: 150px;
+}
+
+.parag{
+
+    font-family: 'Lucida Sans Unicode';
+    margin-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+  .informasi {
+    width: 100%;
+    padding: 20px;
+    font-family: 'Verdana', sans-serif;
+    background-color: #74A1A5; 
+    margin-left: calc(-50vw + 50%);
+    margin-top: 100vh;
+  }
+  
+.bawahan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto 0 auto;
+    flex-direction: column-reverse;
+    position: sticky;
+    bottom: 0;
+}
+  
+  .social-icons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+  }
+  
+
+  
