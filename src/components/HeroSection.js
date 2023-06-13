@@ -10,10 +10,10 @@ function HeroSection() {
       <div className='hero-content'>
         <div className='hero-btns'>
           <Button
-            className='btns btn--outline'
+            className='btn-mobile btn--outline'
             buttonSize='btn--large'
           >
-            <p>Plan Now!</p>
+            <p class="underline-text">Start Now!</p>
           </Button>
         </div>
       </div>
