@@ -6,4 +6,4 @@ Nama anggota  :
 - Wency Yvonney Wijaya (00000071833)
 Tema: Indonesia Culture
 
-Java Oasis mencerminkan keindahan pulau Jawa seperti air di tengah padang pasir. Banyak keindahan alam yang belum terekpos di sosial media maupun media lainnya. Dengan didirikannya website ini, kami berharap dapat memperlihatkan keindahan pulau Jawa yang tersembunyi.
+Java Oasis mencerminkan keindahan pulau Jawa seperti air di tengah padang pasir. Banyak keindahan alam yang belum terekspos di sosial media maupun media lainnya. Dengan didirikannya website ini, kami berharap dapat memperlihatkan keindahan pulau Jawa yang tersembunyi.
