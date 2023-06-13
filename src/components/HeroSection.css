@@ -11,11 +11,10 @@
 }
 
 .hero-container .hero-btns {
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  margin: 0 10px; 
+  height: 100px;
 }
+
+
 
 .hero-container video {
   object-fit: cover;
@@ -40,34 +39,36 @@
   text-align: center; 
 }
 
-.btn-mobile {
-  background-color: rgba(209, 236, 239, 0.8);
-  filter: brightness(100%);
-  border-radius: 35px;
-  margin: 25px;
+.underline-text {
+  text-decoration: underline;
 }
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 .btn-mobile p {
-  font-size: px;
+  font-size: 25px;
   font-weight: 400;
   font-family: 'PT Sans', sans-serif;
-
+  outline: none;
+  color:#e3f2fd;
+  animation: neon-animation 1s ease-in-out infinite alternate;
 }
 
 @keyframes neon-animation {
   0% {
     opacity: 1;
+    text-shadow: 0 0 5px #ebebeb;
   }
   100% {
     opacity: 0.3;
+    text-shadow: 0 0 20px #a2d6f9;
   }
 }
 
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
-    font-size: 70px;
+    font-size: 50px;
     margin-top: -120px;
   }
 }
@@ -84,7 +85,7 @@
 
   .btn-mobile {
     display: block;
-    text-decoration: none;
+   
   }
 
   .btn {
